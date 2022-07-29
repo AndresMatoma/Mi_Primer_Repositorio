@@ -1,0 +1,39 @@
+#info3 .contenedor2{
+    color: black;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    margin-top: 25px;
+    -webkit-perspective: 600px;
+}
+#info3 .carta{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+#info3 .carta:hover{
+    transform: rotateY(180deg);
+}
+#info3 .lado{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+#info3 .frente{
+      border-radius: 25px;
+}
+#info3 .atras{
+    background: white;
+    transform: rotateY(180deg);
+     border-radius: 25px;
+}
+#info3 img{
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 25px;
+    
+}
